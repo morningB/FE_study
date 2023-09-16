@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <title>다양한 폼 연습2</title>
+
+        <h1>순천향대학교 회원가입</h1><hr>
+        <fieldset>
+            
+            <form>
+                <h3>가입 구분 (택1)</h3>
+                학부생<input type="radio" name = "identity" value="1" checked>
+                대학원생<input type="radio" name = "identity" value="2">    
+                교직원<input type="radio" name = "identity" value="3">        
+            </forom><hr>
+            <form>
+                <h3>전공 구분 (해당사항 모두 선택)</h3>
+                보건행정경영학과<input type="checkbox" value = "1">
+                의료생명공학과<input type="checkbox" value = "2">    
+                의료IT공학과<input type="checkbox" value = "3">
+                임상병리학과<input type="checkbox" value = "4">
+                작업치료학과<input type="checkbox" value = "5">
+                의약공학과<input type="checkbox" value = "6">
+                의공학과<input type="checkbox" value = "7">        
+            </forom><hr>
+            <form>
+                <h3>대학생활 목표(선택 또는 입력)</h3>
+                <input type="text" list = "objectives">
+                <datalist id="objectives">
+                    <option>학점 4.5 획득</option>
+                    <option>토익 990점 획득</option>
+                    <option>자격증 100개 취득</option>
+                </datalist>
+
+        
+            </forom><hr>
+            <form>
+              학번 : <input type="text" placeholder="사번/학번"><br>
+              비번 : <input type="password" placeholder="비밀번호를 입력해주세요"><br>
+                <input type="submit" value="확인"><br>
+            </forom>
+
+
+            
+        </fieldset><hr>
+</html>
+    
